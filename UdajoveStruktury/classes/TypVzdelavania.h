@@ -1,0 +1,12 @@
+#pragma once
+enum class TypVzdelavania
+{
+	NEZISTENE,
+	BEZ_VZDELAVANIA,
+	VYSOKOSKOLSKE,
+	VYSSIE,
+	STREDNE,
+	UCNOVSKE,
+	ZAKLADNE,
+	BEZ_UKONCENIA
+};

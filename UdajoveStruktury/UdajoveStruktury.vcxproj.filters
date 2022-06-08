@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="filter">
+      <UniqueIdentifier>{f0bdb96e-bec2-474f-9efd-cb23deab3bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{69fb9b51-9e46-4c68-b513-eaea6afc6e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kriterium">
+      <UniqueIdentifier>{5b0953a5-32f7-4acb-b5db-515fc34ccceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cvs">
+      <UniqueIdentifier>{1c89cc4c-3d3d-4557-b672-959125aa392b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures">
+      <UniqueIdentifier>{cfb199f3-5dca-482c-9a9a-9a4423c9f84d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UdajoveStruktury.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\Vstup.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\vector\vector.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\structure.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\utils.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\FilterFII.h">
+      <Filter>filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="classes\Vstup.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\Kraj.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\Krajina.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\Obec.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\Okres.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\TypPohlavia.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\TypUzemnejJednotky.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\TypVzdelavania.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\UzemnaJednotka.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUzemnaJednotka.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\Kriterium.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJNadradena.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJNazov.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJPrislusnosth.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJTyp.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJVekovaSkupinaPocet.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJVekovaSkupinaPodiel.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJVekPocet.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJVekPodiel.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJVzdelaniePocet.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="kriterium\KriteriumUJVzdelaniePodiel.h">
+      <Filter>kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\array\array.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\array_list.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\bubble_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\double_linked_list.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\hash_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\heap_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\insert_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\linked_list.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\linked_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\list\list.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\merge_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\quick_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\radix_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\select_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sequence_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\shell_sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\shuffle.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorted_sequence_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\unsorted_sequence_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\vector\vector.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\structure_iterator.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\utils.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\data_item.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\heap_monitor.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\types.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Filter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterWithKriterium.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterNazov.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\TypVekovejSkupiny.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterFi.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\CompositeFilter.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterAND.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterOR.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\Vzdelanie.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJTyp.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJPrislusnost.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJVekovaSkupinaPocet.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJVekovaSkupinaPodiel.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJVekPocet.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJVekPodiel.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJVzdelaniePocet.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\FilterUJVzdelaniePodiel.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\SelectionNajvacsiaVekovaSkupina.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\SelectionNajmensiaVekovaSkupina.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\table\sorting\quick_sort_VekSkup.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\SelectionKriteriumMinimum.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\SelectionKriteriumMaximum.h">
+      <Filter>filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cvs\vzdelanie.csv">
+      <Filter>cvs</Filter>
+    </None>
+    <None Include="cvs\obce.csv">
+      <Filter>cvs</Filter>
+    </None>
+    <None Include="cvs\okresy.csv">
+      <Filter>cvs</Filter>
+    </None>
+    <None Include="cvs\vek.csv">
+      <Filter>cvs</Filter>
+    </None>
+    <None Include="cvs\kraje.csv">
+      <Filter>cvs</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

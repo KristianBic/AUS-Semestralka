@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Vzdelanie" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkEBQACAAIIAAAAACgAgAgAACAAEAAAAACAIgAOgAM=</HashCode>
+      <FileName>classes\Vzdelanie.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kraj" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACBAABAAQAAAAAEAAAgAAAAIAgABAAAAAAAAQ=</HashCode>
+      <FileName>classes\Kraj.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Krajina" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAABAAAAAAAAAAAAAAAAAAAoABAAAAAAAAQ=</HashCode>
+      <FileName>classes\Krajina.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obec" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACBAABAAAAAAAAEAAAAAAAAIAgABAgAAAAAAQ=</HashCode>
+      <FileName>classes\Obec.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Okres" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQECBAABAAAAAAAQEAAAAAAAAIAgABAAAAAAAAQ=</HashCode>
+      <FileName>classes\Okres.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UzemnaJednotka" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BIQAAQCCAAABAIAAkAAAAEAAEAgAABAgABKgAAAAgAQ=</HashCode>
+      <FileName>classes\UzemnaJednotka.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Vstup" Collapsed="true">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAJAAhIgAAAAAAAACgAAABQAAgBAAAABACAAA=</HashCode>
+      <FileName>classes\Vstup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeFilter&lt;O&gt;" Collapsed="true">
+    <Position X="10.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>filter\CompositeFilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter&lt;O&gt;" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\Filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAND&lt;O&gt;" Collapsed="true">
+    <Position X="11.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterAND.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterFi&lt;O, R&gt;" Collapsed="true">
+    <Position X="11.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterFi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterFII&lt;O, R&gt;" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>filter\FilterFII.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterNazov" Collapsed="true">
+    <Position X="13.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterNazov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterOR&lt;O&gt;" Collapsed="true">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterOR.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJPrislusnost" Collapsed="true">
+    <Position X="13.5" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>filter\FilterUJPrislusnost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJTyp" Collapsed="true">
+    <Position X="13.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterUJTyp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJVekovaSkupinaPocet" Collapsed="true">
+    <Position X="6.25" Y="12" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterUJVekovaSkupinaPocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJVekovaSkupinaPodiel" Collapsed="true">
+    <Position X="2.75" Y="12" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>filter\FilterUJVekovaSkupinaPodiel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJVekPocet" Collapsed="true">
+    <Position X="8.75" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>filter\FilterUJVekPocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJVekPodiel" Collapsed="true">
+    <Position X="7" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterUJVekPodiel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJVzdelaniePocet" Collapsed="true">
+    <Position X="4.25" Y="10.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>filter\FilterUJVzdelaniePocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterUJVzdelaniePodiel" Collapsed="true">
+    <Position X="1.5" Y="10.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterUJVzdelaniePodiel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterWithKriterium&lt;O, R&gt;" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAQAAAAAAAEAAACAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\FilterWithKriterium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionKriteriumMaximum" Collapsed="true">
+    <Position X="17.75" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAiAEgAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>filter\SelectionKriteriumMaximum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionKriteriumMinimum" Collapsed="true">
+    <Position X="15" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAgAAiAEgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter\SelectionKriteriumMinimum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUzemnaJednotka&lt;R&gt;" Collapsed="true">
+    <Position X="20.5" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUzemnaJednotka.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kriterium&lt;O, R&gt;" Collapsed="true">
+    <Position X="21.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\Kriterium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJNadradena" Collapsed="true">
+    <Position X="15" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJNadradena.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJNazov" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJNazov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJPrislusnost" Collapsed="true">
+    <Position X="19" Y="6.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAQAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJPrislusnosth.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJTyp" Collapsed="true">
+    <Position X="23" Y="7.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJTyp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJVekovaSkupinaPocet" Collapsed="true">
+    <Position X="18.5" Y="7.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJVekovaSkupinaPocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJVekovaSkupinaPodiel" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJVekovaSkupinaPodiel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJVekPocet" Collapsed="true">
+    <Position X="23" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAQAAAAQAA=</HashCode>
+      <FileName>kriterium\KriteriumUJVekPocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJVekPodiel" Collapsed="true">
+    <Position X="26.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAIAQAAAAQAA=</HashCode>
+      <FileName>kriterium\KriteriumUJVekPodiel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJVzdelaniePocet" Collapsed="true">
+    <Position X="23" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJVzdelaniePocet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJVzdelaniePodiel" Collapsed="true">
+    <Position X="15" Y="5.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAACAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>kriterium\KriteriumUJVzdelaniePodiel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TypPohlavia" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>classes\TypPohlavia.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TypUzemnejJednotky" Collapsed="true">
+    <Position X="6" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAQCAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>classes\TypUzemnejJednotky.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TypVekovejSkupiny" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAA=</HashCode>
+      <FileName>classes\TypVekovejSkupiny.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TypVzdelavania" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgQAAAgAAAACAAAAQAAAACAAAAAACAAA=</HashCode>
+      <FileName>classes\TypVzdelavania.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
